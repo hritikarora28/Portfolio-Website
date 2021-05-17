@@ -58,3 +58,38 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+.main_header_left p {
+    font-size: 2rem;
+}
+
+.main_header_left h1 {
+    font-size: 4rem;
+    margin: 1re 0 4rem 0;
+    text-transform: capitalize;
+}
+.main_header_left .text_color {
+    color: var(--main-color)
+}
+.main_header_right {
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* footer css */
+footer{
+    width: 100%;
+    background-color: var(--main-bg);
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    line-height: 5rem;
+    font-size: 1.6rem;
+}
