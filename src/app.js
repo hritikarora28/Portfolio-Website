@@ -23,6 +23,12 @@ app.get('/about', (req, res) => {
 app.get('/contact', (req, res) => {
 	res.render('contact');
 });
+app.get('/login', (req, res) => {
+	res.render('login')
+});
+app.get('/singn-up', (req, res) => {
+	res.send("we are in singn-up")
+});
 app.get('*', (req, res) => {
 	res.render('404', {
 		errormsg: 'Are you lost baby girl',
