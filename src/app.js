@@ -27,7 +27,7 @@ app.get('/login', (req, res) => {
 	res.render('login')
 });
 app.get('/singn-up', (req, res) => {
-	res.send("we are in singn-up")
+	res.render("signup")
 });
 app.get('*', (req, res) => {
 	res.render('404', {
